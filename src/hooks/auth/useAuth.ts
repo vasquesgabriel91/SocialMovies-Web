@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { authService } from "../../lib/auth/authService";
+import { authService } from "../../services/auth/authService";
 import { AuthRequest, AuthResponse } from "../../types/auth";
 
 export const useAuth = () => {
