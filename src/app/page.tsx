@@ -4,11 +4,6 @@ import { useState } from "react";
 import Modal from "../components/ui/Modal";
 import RegisterForm from "../components/forms/RegisterForm";
 
-export const metadata = {
-  title: "SocialMovies | Página inicial",
-  description: "Explore, salve e compartilhe seus filmes favoritos.",
-};
-
 export default function Home() {
   const [showRegisterModal, setShowRegisterModal] = useState(false);
 

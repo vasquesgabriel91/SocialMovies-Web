@@ -4,8 +4,9 @@ import { CreateUserRequest, CreateUserResponse } from "../../types/user/createUs
 const endpoint = "/user";
 
 const createUser = async (data: CreateUserRequest): Promise<CreateUserResponse> => {
-    const response = await api.post<CreateUserResponse>(endpoint, data);
-    return response.data;
+  const response = await api.post<CreateUserResponse>(endpoint, data);
+  console.log("Resposta da API:", response.data);
+  return response.data;
 };
 
 export const userService = {
