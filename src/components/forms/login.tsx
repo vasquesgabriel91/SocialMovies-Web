@@ -34,7 +34,7 @@ export default function LoginForm() {
       <button
         type="submit"
         disabled={loading}
-        className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 disabled:bg-gray-400"
+        className="w-full bg-gray-600 text-white py-2 rounded-lg hover:bg-blue-700 disabled:bg-gray-400"
       >
         {loading ? "Entrando..." : "Entrar"}
       </button>
